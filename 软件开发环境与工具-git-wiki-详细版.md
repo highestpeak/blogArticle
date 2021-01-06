@@ -124,9 +124,17 @@ $ git status --short
   A  lib/git.rb # 新添加到暂存区中的文件
   M  lib/simplegit.rb # 已修改且已暂存，尚未提交
   ?? LICENSE.txt # 未跟踪文件
+  
+M  HelloBlog.md # 已修改并且已暂存
+  D  Java专题-对象拷贝.md # 已删除并且已暂存
+  A  数据库-索引.md # 已添加并且已暂存，新添加到暂存区中的文件
+  R  Java专题-重要接口.md -> Java专题-重要接口重命名后.md # git mv [options] <source>... <destination>导致的重命名
+  
   ```
-
+  
   输出中有两栏，左栏指明了暂存区的状态，右栏指明了工作区的状态。
+  
+  <u>*todo:  short选项有一个 C 的简要输出不知道是怎么输出的 `C [ MD] copied in index`*</u>https://www.git-scm.com/docs/git-status#_short_format
 
 > git diff
 
@@ -252,6 +260,8 @@ $ git rm <file>
 - ⭐注意和 `rm <file>` 的关系
   - `rm <file>` + `git add` = `git rm` 
   - `rm <file>` + `git rm` = `git rm`
+- 其他
+  - `add <file>` + `rm <file>` + `git rm <file>` = `rm <file>` 即文件处于 `AD` 状态，然后执行 `git rm` 等效于没有将文件加入暂存区直接删除
 
 ---
 

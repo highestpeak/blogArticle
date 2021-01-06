@@ -319,6 +319,9 @@ $ git checkout [file]
 
 # 恢复某个commit的指定文件到暂存区和工作区
 $ git checkout [commit-id] [file]
+
+# 撤销提交，但是提交做出的修改不撤销，修改会到暂存区
+git reset --soft HEAD~1
 ```
 
 <u>*todo： 关于分支相关的撤销*</u>
