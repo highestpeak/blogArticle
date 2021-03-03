@@ -1,0 +1,26 @@
+挂载外接硬盘
+mount <disk path> <new path>
+
+更改源地址为中科大（只有他有arm源）
+/etc/apt/sources.list
+
+更改时区
+timedatectl set-timezone Asia/Shanghai
+设定system service 日志容量
+journalctl --vacuum-size=100M
+
+安装mysql
+sudo apt intstall mysql-server
+更改存储目录
+https://stackoverflow.com/questions/1795176/how-to-change-mysql-data-directory
+创建用户和授权
+https://www.jianshu.com/p/d7b9c468f20d
+CREATE USER 'username'@'host' IDENTIFIED BY 'password';
+// CREATE USER 'wiki'@'%' IDENTIFIED BY 'wikihighestpeak';
+GRANT privileges ON databasename.tablename TO 'username'@'host'
+
+安装nodejs
+Node.js v12.x:
+# Using Ubuntu
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs

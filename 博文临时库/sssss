@@ -1,0 +1,390 @@
+[33mcommit e2126a22ee1ebd0c859323032d0ef4ac6a59379a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: highestpeak <highestpeak@163.com>
+Date:   Thu Sep 17 22:45:09 2020 +0800
+
+    提交一下
+
+[1mdiff --git "a/Linux\345\270\270\347\224\250.md" "b/Linux\345\270\270\347\224\250.md"[m
+[1mnew file mode 100644[m
+[1mindex 0000000..deb74d7[m
+[1m--- /dev/null[m
+[1m+++ "b/Linux\345\270\270\347\224\250.md"[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32m- Linux各大发行版本关联[m
+[32m+[m[32m- 各个主要版本的设置、系统安装、分区方案、桌面环境设置、网络设置、虚拟机设置、服务器设置、软件源设置、ssh等[m
+[32m+[m[32m-[m[41m [m
+[32m+[m
+[1mdiff --git "a/TCP\347\232\204\345\205\266\344\273\226\351\227\256\351\242\230.md" "b/TCP\347\232\204\345\205\266\344\273\226\351\227\256\351\242\230.md"[m
+[1mnew file mode 100644[m
+[1mindex 0000000..eac584e[m
+[1m--- /dev/null[m
+[1m+++ "b/TCP\347\232\204\345\205\266\344\273\226\351\227\256\351\242\230.md"[m
+[36m@@ -0,0 +1,17 @@[m
+[32m+[m[32mhttps://juejin.im/entry/6844903669830254600[m
+[32m+[m
+[32m+[m[32mhttps://zhuanlan.zhihu.com/p/94513674[m
+[32m+[m
+[32m+[m[32mhttps://blog.csdn.net/dog250/article/details/54171687[m
+[32m+[m
+[32m+[m[32mhttps://draveness.me/whys-the-design-tcp-performance/[m
+[32m+[m
+[32m+[m[32mhttps://cloud.tencent.com/developer/article/1195040[m
+[32m+[m
+[32m+[m[32mhttps://www.infoq.cn/article/3EuhbjlJcUCE9Iry6T5X[m
+[32m+[m
+[32m+[m[32mhttps://plantegg.github.io/2019/05/07/%E5%B0%B1%E6%98%AF%E8%A6%81%E4%BD%A0%E6%87%82TCP--TCP%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E5%A4%A7%E5%85%A8/[m
+[32m+[m
+[32m+[m[32mhttps://blog.csdn.net/WaitForFree/article/details/21542761[m
+[32m+[m
+[32m+[m[32mhttps://segmentfault.com/a/1190000023565467?utm_source=sf-related[m
+\ No newline at end of file[m
+[1mdiff --git "a/\344\270\264\346\227\266\350\256\260\345\275\225\347\232\204md/\345\276\205\346\225\264\347\220\206\345\222\214\347\273\247\347\273\255\347\234\213\347\232\204\347\237\245\350\257\206.md" "b/\344\270\264\346\227\266\350\256\260\345\275\225\347\232\204md/\345\276\205\346\225\264\347\220\206\345\222\214\347\273\247\347\273\255\347\234\213\347\232\204\347\237\245\350\257\206.md"[m
+[1mindex 3250509..c9533ba 100644[m
+[1m--- "a/\344\270\264\346\227\266\350\256\260\345\275\225\347\232\204md/\345\276\205\346\225\264\347\220\206\345\222\214\347\273\247\347\273\255\347\234\213\347\232\204\347\237\245\350\257\206.md"[m
+[1m+++ "b/\344\270\264\346\227\266\350\256\260\345\275\225\347\232\204md/\345\276\205\346\225\264\347\220\206\345\222\214\347\273\247\347\273\255\347\234\213\347\232\204\347\237\245\350\257\206.md"[m
+[36m@@ -1,6 +1,3 @@[m
+[31m-- 数据库事务必须背的极其熟练[m
+[31m-- TCP必须极其熟练，不同的状态close_wait什么的也要对应一下[m
+[31m-[m
+ - 美团喜欢问Redis和数据库：索引等[m
+ [m
+ - 阿里喜欢问分布式类型的知识，做完笔试题后需要再做一遍笔试题，因为面试的时候会问我们[m
+[36m@@ -56,32 +53,12 @@[m
+ [m
+   https://bit-ranger.github.io/blog/algorithm/large-file-diff-concurrent/[m
+ [m
+[31m-- 大小端[m
+[31m-[m
+ - 设计rpc、关键点、高效的高并发RPC调用[m
+ [m
+ - java序列化[m
+ [m
+[31m-- 线程和协程的区别？[m
+[31m-[m
+[31m-- 求最近公共祖先有哪些方法、给出三种遍历的数组，如何还原二叉树，三个数组都要吗，实现复杂度是多少，二叉树的先序和中序重建二叉树，最后再输出后续遍历结果。[m
+[31m-[m
+ - 怎么实现自定注解[m
+ [m
+[31m-- [m
+[31m-[m
+[31m-- bean的生命周期[m
+[31m-[m
+[31m-- ⭐⭐⭐如何查询SQL执行时间[m
+[31m-[m
+[31m-- [m
+[31m-[m
+[31m-- hashmap和concurrenthashmap[m
+[31m-[m
+[31m-- Set、Map、List适用场景[m
+[31m-[m
+[31m-- 单向链表找中间值（两个指针）[m
+[31m-[m
+ - 高并发策略，知道哪些[m
+ [m
+ - dos攻击怎么回事，怎么解决[m
+[36m@@ -125,91 +102,53 @@[m
+ [m
+ - [m
+ [m
+[31m-- [m
+[31m-[m
+[31m-- [最长同值路径](https://leetcode-cn.com/problems/longest-univalue-path/)[m
+[31m-[m
+[31m-- 一组无序整数，找出第 K 大的数。（先说思路，后实现。）[m
+[31m-[m
+[31m-- 写一道算法题吧 单链表反转[m
+[31m-[m
+[31m-- 手写快排[m
+[31m-[m
+ - 两个线程打印不同数组[m
+ [m
+[31m-- 输出二叉树的所有左节点；[m
+[31m-[m
+[31m-- [m
+[31m-[m
+[31m-- 美团好像喜欢剑指offer[m
+[31m-[m
+[31m-- 各种逻辑题：[m
+[32m+[m[32m- 三个线程T1，T2和T3，线程T3必须等到T1，T2都结束之后才能开始，应该怎么做[m
+ [m
+[31m-    两根蜡烛，每根燃烧1h，如何计时15分钟？[m
+[32m+[m[32m- 有四个线程，怎么让他们按顺序执行[m
+ [m
+[31m-    2根香为A和B[m
+[32m+[m[32m- 十个线程，分别执行不同任务，如何让他们执行完后，相互等待，一同出发[m
+ [m
+[31m-    1 将A的两端，B的一端3个端点同时点燃；[m
+[32m+[m[32m- 多线程消费-生产模型（写两种）[m
+ [m
+[31m-    2 A燃尽时开始计时并将B的另一端点燃；得15分钟[m
+[32m+[m[32m- 给定一个数组，使用两个线程依次交替打印数组中的元素[m
+ [m
+ - [m
+ [m
+[31m-- 三个线程T1，T2和T3，线程T3必须等到T1，T2都结束之后才能开始，应该怎么做[m
+[31m-[m
+[31m-- 堆排序时间复杂度，稳定性[m
+[31m-[m
+[31m-- 堆除了用来排序，还能做什么？[m
+[31m-[m
+[31m-- 写一个归并排序[m
+[31m-[m
+[31m-- 有四个线程，怎么让他们按顺序执行[m
+[32m+[m[32m- 美团好像喜欢剑指offer[m
+ [m
+ - binary search tree iterator[m
+ [m
+[31m-- 十个线程，分别执行不同任务，如何让他们执行完后，相互等待，一同出发[m
+[31m-[m
+[31m-- 哈夫曼树原理[m
+[31m-[m
+ - 一致性哈希算法[m
+ [m
+[32m+[m[32m- 一组无序整数，找出第 K 大的数。（先说思路，后实现。）[m
+[32m+[m
+ - `TopK`算法[m
+ [m
+     https://juejin.im/entry/6844903682509668360[m
+ [m
+     https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/solution/3chong-jie-fa-miao-sha-topkkuai-pai-dui-er-cha-sou/[m
+ [m
+[31m-- ⭐⭐⭐编程题如：[m
+[31m-[m
+[31m-    - 编程题例如：多线程消费-生产模型（写两种）、[m
+[31m-[m
+ - hash冲突[m
+ [m
+     - 开散列：数组加链表[m
+     - 闭散列：溢出桶、线性探查[m
+ [m
+[31m-- ⭐⭐⭐排序算法[m
+[31m-[m
+[31m-    - 适合场景和时间复杂度[m
+[31m-[m
+[31m-    - ![](E:\_data\博文临时库\博文中的图片\排序算法的比较.jpg)[m
+[31m-[m
+[31m-    - ⭐⭐⭐归并排序、快速排序的详细步骤！！！[m
+[31m-[m
+[31m-      堆排序、冒泡排序[m
+[31m-[m
+[31m-    - 时间和空间复杂度[m
+[31m-[m
+[31m-    - 什么时候用快排什么时候用冒泡？[m
+[31m-[m
+ - 银行家算法[m
+ [m
+ - 最小生成树算法[m
+ [m
+     prim算法找的是下一个与已知MST中的某个顶点举例最近的顶点[m
+ [m
+[32m+[m[32m- 求最近公共祖先有哪些方法、给出三种遍历的数组，如何还原二叉树，三个数组都要吗，实现复杂度是多少，二叉树的先序和中序重建二叉树，最后再输出后续遍历结果。[m
+[32m+[m
+ - [m
+ [m
+[32m+[m[32m- 泛型编译阶段会报错吗[m
+[32m+[m
+[32m+[m[32m- 磁盘调度算法有哪些？[m
+[32m+[m
+ - web应用需要注意哪些安全方面的东西[m
+ [m
+ - JDK的代理和CGlib的代理有什么区别？为什么JDK代理一定要接口[m
+[36m@@ -222,14 +161,6 @@[m
+ [m
+ - 缓存、缓存一致性协议[m
+ [m
+[31m-- [m
+[31m-[m
+[31m-- 15.linux用过的命令[m
+[31m-[m
+[31m-    16.cat。grep还有怎么看文件前五行[m
+[31m-[m
+[31m-- Linux线程 进程模型、内存模型[m
+[31m-[m
+ - RPC，数据库，服务间调用，消息队列，分布式相关[m
+ [m
+ - 一个账号两个操作，两个服务器同时操作怎么处理并发。[m
+[36m@@ -242,8 +173,6 @@[m
+ [m
+ - 对老年代进行标记清除时怎么标记的？标记时遍历的起点与终点分别是哪里？[m
+ [m
+[31m-- timeout有什么用[m
+[31m-[m
+ - 反射介绍一下，反射既然可以获取到private。那么private存在的意义是什么呢[m
+ [m
+ - maven仓库和git[m
+[36m@@ -293,6 +222,7 @@[m
+ - [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)[m
+ [m
+ - [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)[m
+[32m+[m[41m  [m
+   - [518. 零钱兑换 II](https://leetcode-cn.com/problems/coin-change-2/)[m
+   - [零钱兑换II和爬楼梯问题到底有什么不同？](https://leetcode-cn.com/problems/coin-change-2/solution/ling-qian-dui-huan-iihe-pa-lou-ti-wen-ti-dao-di-yo/)[m
+   [m
+[36m@@ -346,7 +276,7 @@[m
+ [m
+ - [221. 最大正方形](https://leetcode-cn.com/problems/maximal-square/)[m
+ [m
+[31m-- [128. 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/)[m
+[32m+[m[32m- [128. 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/) 牛牛的数列[m
+ [m
+ - [560. 和为K的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/)  （这种计算前缀和的以及利用了HashMap的要总结一下）[m
+ [m
+[36m@@ -368,23 +298,17 @@[m
+ [m
+ - 股票问题[m
+ [m
+[31m-- 给定一个数组，使用两个线程依次交替打印数组中的元素[m
+[32m+[m[32m-[m[41m [m
+ [m
+ - 用 rand(5) 实现 rand(9)，[m
+ [m
+[31m-- 共有 64 匹马，有 8 条赛道，也就是每次最多可以用 8 匹马进行一次比赛。若要选出 64 匹中最快的 4 匹，至少要比赛几次[m
+[31m-[m
+[31m-  https://juejin.im/post/6844903895739662344[m
+[31m-[m
+ - 中文字符串转成数字。例：“五百三十万六千零三” -> 5306003。约束：输入金额在一亿以内。要求：做一定的容错处理[m
+ [m
+ - 判断字符串是否满足斐波那契规则，如：“199100199”。由于 1 + 99 = 100，99 + 100 = 199。[842. 将数组拆分成斐波那契序列](https://leetcode-cn.com/problems/split-array-into-fibonacci-sequence/)[m
+ [m
+ - 2 * 1 的小矩形填充满 2 * n 的大矩形有多少种方案？[m
+ [m
+[31m-- [41. 缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/)[m
+[31m-[m
+[31m-  https://leetcode-cn.com/problems/first-missing-positive/solution/tong-pai-xu-python-dai-ma-by-liweiwei1419/[m
+[32m+[m[32m- 设计模式[m
+ [m
+ - [m
+ [m
+[36m@@ -406,6 +330,32 @@[m
+ [m
+ - 场景设计：大文件的断点续传[m
+ [m
+[32m+[m[32m-[m[41m [m
+[32m+[m
+[32m+[m[32m-[m[41m [m
+[32m+[m
+[32m+[m[32m- top k算法[m
+[32m+[m
+[32m+[m[32m- 树的非递归算法[m
+[32m+[m
+[32m+[m[32m-[m[41m [m
+[32m+[m
+[32m+[m[32m- 判断点在三角形内[m
+[32m+[m
+[32m+[m[32m  重心坐标公式[m
+[32m+[m
+[32m+[m[32m  https://www.cnblogs.com/graphics/archive/2010/08/05/1793393.html[m
+[32m+[m
+[32m+[m[32m-[m[41m [m
+[32m+[m
+[32m+[m[32m- 观察者模式[m
+[32m+[m
+[32m+[m[32m- 消费者模型[m
+[32m+[m
+[32m+[m[32m- 好几个子序列问题[m
+[32m+[m
+[32m+[m[32m- 好几个树的问题[m
+[32m+[m
+ [m
+ https://www.nowcoder.com/discuss/445445[m
+ [m
+[36m@@ -413,6 +363,44 @@[m [mhttps://www.nowcoder.com/discuss/445445[m
+ [m
+ [m
+ [m
+[32m+[m[32mAndroid[m
+[32m+[m
+[32m+[m[32m- 进程间通信方式、AIDL、Handler机制、loop()为什么不会阻塞主线程、postDelayed()的原理、线程间通信方式有哪些，Handler和Message的底层如何实现[m
+[32m+[m[32m  - 如果looper中有很多消息，会卡顿吗，为什么不会卡顿[m
+[32m+[m[32m- 为什么主线程looper死循环不会导致ANR现象出现?ANR现象及原因[m
+[32m+[m[32m  - 如何快速定位，AS中有一个工具，可以生成一个文件，里面记录着发生ANR的方法和原因。[m[41m      [m
+[32m+[m[32m- 自定义View的流程、View的事件分发、View的绘制流程、事件分发机制[m
+[32m+[m[32m  - 事件分发机制，用了什么设计模型[m
+[32m+[m[32m  - ListView和RecyclerView区别[m
+[32m+[m[32m- 四大组件[m
+[32m+[m[32m  - Service使用过么?Service如何执行一个耗时操作、生命周期[m
+[32m+[m[32m    - 通过bindService()或者startService()打开了一个Service，如果再打开一次，会执行什么方法[m
+[32m+[m[32m  - Activity的启动方法，区别。Activity A启动 Activity B A和B的调用情况 、生命周期[m
+[32m+[m[32m    - onSaveInstance什么时候调用，活动A到活动B执行什么方法[m
+[32m+[m[32m    - Activity的启动模式有哪些[m
+[32m+[m[32m  - service的启动方法，区别[m[41m [m
+[32m+[m[32m  - 广播的作用，注册方法，过滤器[m[41m [m
+[32m+[m[32m  - contentProvider作用[m
+[32m+[m[32m- SQLite[m
+[32m+[m[32m- Okhttp3的优点[m
+[32m+[m[32m- glide和picasso区别，图片缓存机制，Bitmap是存在java层还是native层[m
+[32m+[m[32m- ImageView如何加载很大的bitmap,采样率怎么计算[m
+[32m+[m[32m- MVC，MVP架构以及区别MVP中view和presenter互相怎么调用？[m
+[32m+[m[32m- 内存泄露的情况[m[41m   [m
+[32m+[m[32m- 在App A里面如何启动App B[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m- 其他问题：[m
+[32m+[m
+[32m+[m[32m  统计pdf中的home单词的出现次数[m
+[32m+[m
+[32m+[m[32m- 找出字符串中的重复子串[m
+[32m+[m
+[32m+[m[32m- Linux服务器共享文件夹[m
+[32m+[m
+[32m+[m
+[32m+[m
+ [m
+ [m
+ - 最近在看什么书[m
+[1mdiff --git "a/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/SQL\347\232\204JOIN\347\244\272\346\204\217.png" "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/SQL\347\232\204JOIN\347\244\272\346\204\217.png"[m
+[1mnew file mode 100644[m
+[1mindex 0000000..682ab31[m
+Binary files /dev/null and "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/SQL\347\232\204JOIN\347\244\272\346\204\217.png" differ
+[1mdiff --git "a/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/TCP\344\270\211\346\254\241\346\217\241\346\211\213.webp" "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/TCP\344\270\211\346\254\241\346\217\241\346\211\213.webp"[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c71e2a9[m
+Binary files /dev/null and "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/TCP\344\270\211\346\254\241\346\217\241\346\211\213.webp" differ
+[1mdiff --git "a/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/TCP\345\233\233\346\254\241\346\214\245\346\211\213.webp" "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/TCP\345\233\233\346\254\241\346\214\245\346\211\213.webp"[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f8abced[m
+Binary files /dev/null and "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/TCP\345\233\233\346\254\241\346\214\245\346\211\213.webp" differ
+[1mdiff --git "a/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS-\344\270\203\347\212\266\346\200\201\346\250\241\345\236\213.drawio" "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS-\344\270\203\347\212\266\346\200\201\346\250\241\345\236\213.drawio"[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7160d24[m
+[1m--- /dev/null[m
+[1m+++ "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS-\344\270\203\347\212\266\346\200\201\346\250\241\345\236\213.drawio"[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m<mxfile host="Electron" modified="2020-09-16T16:33:53.126Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/13.6.2 Chrome/83.0.4103.122 Electron/9.2.0 Safari/537.36" etag="4nufDHJt8_d1URn9Vl3i" version="13.6.2" type="device"><diagram id="TRd370lZAaMtT0lFDfLy" name="第 1 页">7Ztbb6M4FMc/jR9bcTOYx5DL9GFXqtSd3Zl5c8FNaB0cEadN99OvDSZAcHNpSWC0qJViH5vg+Mf5H/s4AfZ4uf2W4tXiTxYRCiwj2gJ7AizLNCxHvEjLe26BvpUb5mkcqU6l4SH+lxRXKusmjsi61pEzRnm8qhtDliQk5DUbTlP2Vu/2xGj9ris8Jw3DQ4hp0/pPHPFFbkWWV9rvSDxfFHc2XT9vecThyzxlm0TdD1j2zJV/efMSF++lPuh6gSP2VjHZU2CPU8Z4Xlpux4TKuS2mLb9u9kHrbtwpSfgpF/wKJni+nlF6502/Bd+jZ/Sd3kA12jV/LyYk+0hEXmQAO2ApX7A5SzD9g7GVMJrC+Ew4f1co8YYzYVrwJVWtZBvzH5XyT/lWt1DVJlv1zlnlvagkPH3/UXaU1Z/VtvKyrFZcl4+eRA3G5awo05pt0lD1+vvOv4nixd39/Wvy/PDXeIx/TW5sNRUcp3PCD3X0dvSEVxC2JGJE4sKUUMzj1/pIsHo857t+JSJRUJTOIeY3iMmP/6CqCUvES9AaROP3h6ifRnQliAeH+YrpRt0KTF3guyAwwBSCIADBqMmZUqGKEu/bIubkYYWzuXgTwlyHt5MaObsUPxIa7MRqzChLywdl/UJ4uFBdn1jC1RNhZfWY0qK/kLenJ+KGobyIp+yFVFoiz380SpQacq8k5WRbMTWnvmh1lWCqgIJU9a2izsq0qAizY1yIlWMddLjSt6alNQg36WvmfmabzlhT1BNd8RxH3Of/BT/0ThVTpPX+rtTVtTtTV/NEoLe+CNpVqLfIcI6AzWr3JI3FLJH0ArKrwd1H2fU0sgul5gYmmHpSdkdfkF28XuUr1Kd4K5+Oi+kwColehx8RdGBLOrxTWaXDltG1EDu9EeJP+K1Z9VnziL+2KMTorFVtF0Kshw17A/tz+5i6RMP+AS/8tCeRF3oN4O25647aZx32OME2o+nJPut3Gk2RJpoiEMyAb8jCyARoPERTFRWdvkVT1BuBrbvnqRubeo7hihHV731E1W9tmqm+nm1tzloitam3GqL6Kex0SVQMc2/3MhK7F5gVTOBPB70F2t2L7Xatt4aGXrblREjm/kYTMNJkmnpH7yo5QNfoLlpqPd/UwEMycYDsLIMwAqOmvIoPy+uU6pOmpr86w8qEaTxPRDUUUyjzNYGcujjEdKQalnEU0Y8ei7qGt/UgfMBQQ/pDrPZeatfU5HY9DVbrUlgtPVYXIJjl4z1ZHrCeiXXnhl1htbWBEo1krJR8J/J/wHpmCDW7xuposPoAeZKs9FYHBM31z4B1Dyu0j8fWq2KF2oWRWA8hP4utU6nGlkslxsdUlOayBKaODLsoLwSDUJ+ShDCdOnofNpdVsIkeXgq9/jwGzYCfnccIj/ZnA/pWxBzCOnrdsboG/cVW1K5ms3PBdMSlj87Bp9IRB85I+/9FJF36t3mYOpOhGY0BypfWokMz0d+7XS4xI0g83S7Xdz0buy1F4uOB2NdtcuGlXFKXohjWzediNa2erZvdwwfnrWd+z0jntyibbvHt4d58B0U/zMMH2//juKcD2O2x58FhHknDD3Hv1LhnQ++2uQ+5buTTbUQEviwnL0Ogp/s+7hD59iOf17NEoKtbow5cz+bq1jePTtcpo+I3OB9yFTLcjLMD1yNcbVunxFcl6+n2IAPZr5Lt/KTN06+ahlRf++zR1TJ9olr+fjFrq/xI1J7+Bw==</diagram></mxfile>[m
+\ No newline at end of file[m
+[1mdiff --git "a/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS-\344\270\203\347\212\266\346\200\201\346\250\241\345\236\213.png" "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS-\344\270\203\347\212\266\346\200\201\346\250\241\345\236\213.png"[m
+[1mnew file mode 100644[m
+[1mindex 0000000..57e6229[m
+Binary files /dev/null and "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS-\344\270\203\347\212\266\346\200\201\346\250\241\345\236\213.png" differ
+[1mdiff --git "a/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS-\344\270\244\347\212\266\346\200\201\346\250\241\345\236\213.drawio" "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS-\344\270\244\347\212\266\346\200\201\346\250\241\345\236\213.drawio"[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d1838e3[m
+[1m--- /dev/null[m
+[1m+++ "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS-\344\270\244\347\212\266\346\200\201\346\250\241\345\236\213.drawio"[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m<mxfile host="Electron" modified="2020-09-15T03:07:16.484Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/13.6.2 Chrome/83.0.4103.122 Electron/9.2.0 Safari/537.36" etag="aXjgnLQsUIglQpPC9NYj" version="13.6.2" type="device"><diagram id="TRd370lZAaMtT0lFDfLy" name="第 1 页">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</diagram></mxfile>[m
+\ No newline at end of file[m
+[1mdiff --git "a/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS-\344\270\244\347\212\266\346\200\201\346\250\241\345\236\213.png" "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS-\344\270\244\347\212\266\346\200\201\346\250\241\345\236\213.png"[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3292328[m
+Binary files /dev/null and "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS-\344\270\244\347\212\266\346\200\201\346\250\241\345\236\213.png" differ
+[1mdiff --git "a/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS-\344\272\224\347\212\266\346\200\201\346\250\241\345\236\213.drawio" "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS-\344\272\224\347\212\266\346\200\201\346\250\241\345\236\213.drawio"[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3e71796[m
+[1m--- /dev/null[m
+[1m+++ "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS-\344\272\224\347\212\266\346\200\201\346\250\241\345\236\213.drawio"[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m<mxfile host="Electron" modified="2020-09-16T05:31:44.267Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/13.6.2 Chrome/83.0.4103.122 Electron/9.2.0 Safari/537.36" etag="jLrIe7qywC1EalDNMZFr" version="13.6.2" type="device"><diagram id="TRd370lZAaMtT0lFDfLy" name="第 1 页">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</diagram></mxfile>[m
+\ No newline at end of file[m
+[1mdiff --git "a/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS-\344\272\224\347\212\266\346\200\201\346\250\241\345\236\213.png" "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS-\344\272\224\347\212\266\346\200\201\346\250\241\345\236\213.png"[m
+[1mnew file mode 100644[m
+[1mindex 0000000..663f508[m
+Binary files /dev/null and "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS-\344\272\224\347\212\266\346\200\201\346\250\241\345\236\213.png" differ
+[1mdiff --git "a/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS\347\263\273\347\273\237\346\216\247\345\210\266\350\241\250.drawio" "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS\347\263\273\347\273\237\346\216\247\345\210\266\350\241\250.drawio"[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7781a4b[m
+[1m--- /dev/null[m
+[1m+++ "b/\345\215\232\346\226\207\344\270\255\347\232\204\345\233\276\347\211\207/drawio/OS\347\263\273\347\273\237\346\216\247\345\210\266\350\241\250.drawio"[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m<mxfile host="Electron" modified="2020-09-17T03:02:15.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/13.6.2 Chrome/83.0.4103.122 Electron/9.2.0 Safari/537.36" etag="_Z7ACpRsokSwXRe6RWXQ" version="13.6.2" type="device"><diagram id="amjJ3BSBH4NQqEooDpcv" name="第 1 页">7Vpbc5s6EP41eqwHJK6PJiE9nWmnnZOZNn1UQAYajHyEHNv99ZVAGDDExid2iD1NZhK0Wt2+1bfaFQB0M19/ZHgRf6EhSQHUwjVAtwBCx0TirxRsSoEJlSBiSViK9Fpwn/wmSqgp6TIJSd5S5JSmPFm0hQHNMhLwlgwzRldttRlN26MucEQ6gvsAp13pjyTksVoWtGv5PySJ4mpk3XLLmkccPEWMLjM1HoDozpK/ZfUcV32pheYxDumqIUI+QDeMUl4+zdc3JJXQVrCV7e5eqN
