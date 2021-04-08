@@ -1,0 +1,56 @@
+{
+    "took": 49,
+    "timed_out": false,
+    "_shards": {
+        "total": 3,
+        "successful": 3,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": 998,
+        "max_score": 208.0,
+        "hits": [
+            {
+                "_index": "is_docs_join_20210204_1",
+                "_type": "cosmo",
+                "_id": "fcADTOzEb9hjGeLfqraIpwgaN",
+                "_score": 208.0,
+                "_routing": "fcADTOzEb9hjGeLfqraIpwgaN",
+                "_source": {
+                    "id": "fcADTOzEb9hjGeLfqraIpwgaN"
+                }
+            },
+            {
+                "_index": "is_docs_join_20210204_1",
+                "_type": "cosmo",
+                "_id": "fcACnGgZlOK4_EYdzT_M72EdJ",
+                "_score": 208.0,
+                "_routing": "fcACnGgZlOK4_EYdzT_M72EdJ",
+                "_source": {
+                    "id": "fcACnGgZlOK4_EYdzT_M72EdJ"
+                }
+            },
+            {
+                "_index": "is_docs_join_20210204_1",
+                "_type": "cosmo",
+                "_id": "fcABLDZTlnid1jVsi9yfhSVuV",
+                "_score": 208.0,
+                "_routing": "fcABLDZTlnid1jVsi9yfhSVuV",
+                "_source": {
+                    "id": "fcABLDZTlnid1jVsi9yfhSVuV"
+                }
+            },
+            {
+                "_index": "is_docs_join_20210204_1",
+                "_type": "cosmo",
+                "_id": "fcADvG6gfUusc1LAKAJCndDeh",
+                "_score": 208.0,
+                "_routing": "fcADvG6gfUusc1LAKAJCndDeh",
+                "_source": {
+                    "id": "fcADvG6gfUusc1LAKAJCndDeh"
+                }
+            }
+        ]
+    }
+}

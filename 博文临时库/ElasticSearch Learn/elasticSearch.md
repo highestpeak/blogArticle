@@ -427,3 +427,6 @@ https://www.elastic.co/guide/cn/elasticsearch/guide/current/nested-objects.html
 
 
 
+es更新不是即时的，不是立即的
+
+es会检测内容变动？内容没有变化的就不会去更新？

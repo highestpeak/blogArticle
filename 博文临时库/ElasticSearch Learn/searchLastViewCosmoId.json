@@ -1,0 +1,213 @@
+// EsJoinSearchApiServiceImpl 776 print
+{
+    "from": 0,
+    "size": 200,
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                    "terms": {
+                        "id": [
+                            "fcACnGgZlOK4_EYdzT_M72EdJ",
+                            "fcADvG6gfUusc1LAKAJCndDeh",
+                            "fcADTOzEb9hjGeLfqraIpwgaN",
+                            "fcABLDZTlnid1jVsi9yfhSVuV",
+                            "fcAC23khGenFpCQ-x7Y0qi_BG",
+                            "fcABqEbRbPLtE6Lw2O031r6BZ",
+                            "........................."
+                        ],
+                        "boost": 1.0
+                    }
+                },
+                {
+                    "terms": {
+                        "entity_id": [
+                            "7457060604576308788",
+                            "8005507415033562712",
+                            "889487871487636690",
+                            "213605932283740212",
+                            "3772186432228285516",
+                            "7384948396148213769",
+                            "..................."
+                        ],
+                        "boost": 1.0
+                    }
+                },
+                {
+                    "terms": {
+                        "type": [
+                            "1",
+                            "2",
+                            "4",
+                            "5",
+                            "6",
+                            "7",
+                            "8"
+                        ],
+                        "boost": 1.0
+                    }
+                }
+            ],
+            "must_not": [
+                {
+                    "term": {
+                        "delete": {
+                            "value": true,
+                            "boost": 1.0
+                        }
+                    }
+                }
+            ],
+            "should": [
+                {
+                    "has_child": {
+                        "query": {
+                            "function_score": {
+                                "query": {
+                                    "constant_score": {
+                                        "filter": {
+                                            "term": {
+                                                "user.user_id": {
+                                                    "value": "4154601894847570099",
+                                                    "boost": 1.0
+                                                }
+                                            }
+                                        },
+                                        "boost": 1.0
+                                    }
+                                },
+                                // https://www.elastic.co/guide/cn/elasticsearch/guide/current/function-score-filters.html
+                                "functions": [
+                                    {
+                                        "filter": {
+                                            "exists": {
+                                                "field": "user.last_view_time",
+                                                "boost": 1.0
+                                            }
+                                        },
+                                        "weight": 4.0,
+                                        "gauss": {
+                                            "user.last_view_time": {
+                                                "origin": 1616318664209,
+                                                "scale": 5.184E9,
+                                                "offset": 8.64E7,
+                                                "decay": 0.5
+                                            },
+                                            "multi_value_mode": "MIN"
+                                        }
+                                    },
+                                    {
+                                        "filter": {
+                                            "exists": {
+                                                "field": "user.last_modified_time",
+                                                "boost": 1.0
+                                            }
+                                        },
+                                        "weight": 4.0,
+                                        "gauss": {
+                                            "user.last_modified_time": {
+                                                "origin": 1616318664445,
+                                                "scale": 5.184E9,
+                                                "offset": 8.64E7,
+                                                "decay": 0.5
+                                            },
+                                            "multi_value_mode": "MIN"
+                                        }
+                                    },
+                                    {
+                                        "filter": {
+                                            "exists": {
+                                                "field": "user.like",
+                                                "boost": 1.0
+                                            }
+                                        },
+                                        "weight": 10.0,
+                                        "script_score": {
+                                            "script": {
+                                                "source": "doc['user.like'].value ? 0.01 : 0",
+                                                "lang": "painless"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "filter": {
+                                            "exists": {
+                                                "field": "user.collect",
+                                                "boost": 1.0
+                                            }
+                                        },
+                                        "weight": 20.0,
+                                        "script_score": {
+                                            "script": {
+                                                "source": "doc['user.collect'].value ? 0.01 : 0",
+                                                "lang": "painless"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "filter": {
+                                            "exists": {
+                                                "field": "user.quick",
+                                                "boost": 1.0
+                                            }
+                                        },
+                                        "weight": 40.0,
+                                        "script_score": {
+                                            "script": {
+                                                "source": "doc['user.quick'].value ? 0.01 : 0",
+                                                "lang": "painless"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "filter": {
+                                            "match_all": {
+                                                "boost": 1.0
+                                            }
+                                        },
+                                        "weight": 1.0E-6
+                                    }
+                                ],
+                                "score_mode": "sum",
+                                "boost_mode": "multiply",
+                                "max_boost": 3.4028235E38,
+                                "boost": 10.0
+                            }
+                        },
+                        "type": "user",
+                        "score_mode": "max",
+                        "min_children": 0,
+                        "max_children": 2147483647,
+                        "ignore_unmapped": false,
+                        "boost": 1.0
+                    }
+                },
+                {
+                    "constant_score": {
+                        "filter": {
+                            "terms": {
+                                "id": [
+                                    "fcACnGgZlOK4_EYdzT_M72EdJ",
+                                    "fcADvG6gfUusc1LAKAJCndDeh",
+                                    "fcADTOzEb9hjGeLfqraIpwgaN",
+                                    "fcABLDZTlnid1jVsi9yfhSVuV",
+                                    "fcAC23khGenFpCQ-x7Y0qi_BG"
+                                ],
+                                "boost": 1.0
+                            }
+                        },
+                        "boost": 128.0
+                    }
+                }
+            ],
+            "adjust_pure_negative": true,
+            "boost": 1.0
+        }
+    },
+    "_source": {
+        "includes": [
+            "id"
+        ],
+        "excludes": []
+    }
+}

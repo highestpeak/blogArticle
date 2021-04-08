@@ -91,3 +91,23 @@ PUT /my_store
 }
 ```
 
+- 查找具有父id的所有子item
+
+```
+GET is_docs_join_new/_search
+{
+  "query": {
+    "has_parent": {
+      "parent_type": "cosmo",
+      "query": {
+        "term": {
+          "id": {
+            "value": "fcADEXdTqYPdM5u1acDLja1hO"
+          }
+        }
+      }
+    }
+  }
+}
+```
+

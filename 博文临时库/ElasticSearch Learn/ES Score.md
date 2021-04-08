@@ -149,3 +149,15 @@ ES的相似度算法：TF/IDF 检索词频率/反向文档频率
   
 - script_score
 
+
+
+
+
+https://blog.csdn.net/weixin_40341116/article/details/80931573
+
+https://www.elastic.co/guide/cn/elasticsearch/guide/current/not-quite-not.html
+
+https://www.cnblogs.com/qdhxhz/p/11529107.html
+
+
+
